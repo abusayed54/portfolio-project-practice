@@ -6,6 +6,7 @@ const GlobalStyles = createGlobalStyle`
     --primary-color-light: #057FFF;
     --secondary-color: #6c757d;
     --background-dark-color: #10121A;
+    --background-dark-color-2: #191D2B;
     --border-color: #2e344e;
     --background-light-color: #F1F1F1;
     --background-light-color-2: rgba(3,127,255,.3);
@@ -49,6 +50,11 @@ const GlobalStyles = createGlobalStyle`
         }
         span{
             color: var(--primary-color);
+        }
+        h6{
+            color:var(--white-color);
+            font-size: 1.2rem;
+            padding-bottom: .6rem;
         }
 `;
 

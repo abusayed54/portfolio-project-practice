@@ -9,6 +9,7 @@ const Title = ({ title, span }) => {
 };
 const TitleStyled = styled.div`
 position: relative;
+margin-bottom: 2rem;
 h2{
     color: var(--white-color);
     font-size: 3.1rem;

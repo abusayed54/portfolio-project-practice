@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import image from '../images/resume.jpg'
+import PrimaryButton from './PrimaryButton';
 
 const ImageSection = () => {
     return (
@@ -33,6 +34,7 @@ const ImageSection = () => {
                         <p>: React Developer</p>
                     </div>
                 </div>
+                <PrimaryButton title={"Download CV"}></PrimaryButton>
             </div>
         </ImageSectionStyled>
     );
@@ -43,14 +45,18 @@ margin-top: 5 rem;
 display: flex;
 .left-content{
     width: 100%;
+    height: 60vh;
     img{
         width:90%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 .right-content{
     h4{
         font-size: 2rem;
         color: var(--white-color);
+        text-transform: uppercase;
         span{
             font-size: 2rem;
         }
