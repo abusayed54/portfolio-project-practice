@@ -36,7 +36,10 @@ const BlogsPageStyled = styled.div`
     grid-column-gap: 2rem;
     grid-row-gap: 1rem;
     padding: 1rem 1rem;
-    
+    @media screen and (max-width:770px) {
+        grid-template-columns: repeat(1, 1fr);
+        transition: all 0.2s ease-in-out;
+    }
   
     .content-wrapper{
         display: flex;

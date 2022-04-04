@@ -39,10 +39,25 @@ const ServicesSection = () => {
 const ServicesSectionStyled = styled.section`
 .services{
     margin-top:5rem ;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:1.5rem;
     .mid-card{
         margin: 0 1.2rem;
+    }
+}
+@media screen and (max-width:991px){
+    .services{
+        grid-template-columns: repeat(2,1fr);
+        .mid-card{
+            margin:0;
+        }
+    }
+   
+}
+@media screen and (max-width:650px) {
+    .services{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 `;

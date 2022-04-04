@@ -61,6 +61,7 @@ const Navigation = () => {
     );
 };
 const NavigationStyled = styled.nav`
+background-color: var(--sidebar-dark-color);
 display: flex;
 justify-content: space-between;
 flex-direction: column;

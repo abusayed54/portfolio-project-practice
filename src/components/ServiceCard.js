@@ -12,7 +12,7 @@ const ServiceCard = ({ image, title, paragraph }) => {
     );
 };
 const ServiceCardStyled = styled.div`
-background-color: var(--background-dark-color-2);
+background-color: var(--background-dark-color);
 border-left: 1px solid var(--border-color);
 border-top: 8px solid var(--border-color);
 border-right: 1px solid var(--border-color);
@@ -43,6 +43,13 @@ border-bottom: 1px solid var(--border-color);
     }
     p{
         padding: 0.8rem 0;
+    }
+}
+@media screen and (max-width:991px){
+    margin-bottom:1.5rem;
+    .container{
+        height: auto;
+         width: 100%;
     }
 }
 `;

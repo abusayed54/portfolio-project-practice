@@ -16,16 +16,16 @@ const ResumeContent = () => {
             <Title title={"Resume"} span={"Resume"} />
             <InnerLayout>
                 <div className="small-title">
-                    <SmallTitle title={"Working Experience"} icon={briefCase} />
+                    <SmallTitle title={"Educational Qualification"} icon={briefCase} />
                 </div>
                 <div className="resume-contents">
-                    <ResumeItem year={"2015 - 2020"} title={"Computer Science Teacher"} subTitle={"Sussex University"} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quisquam."} />
-                    <ResumeItem year={"2015 - present"} title={"Full Stack Developer"} subTitle={"Microsoft Studios"} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quisquam."} />
-                    <ResumeItem year={"2010 - 2017"} title={"User Interface Designer"} subTitle={"Google Inc."} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quisquam."} />
+                    <ResumeItem year={"2018 - 2022"} title={"Computer Science Degree"} subTitle={"Sussex University"} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quisquam."} />
+                    <ResumeItem year={"2015 - 2017"} title={"A - Levels"} subTitle={"Computer Science"} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quisquam."} />
+                    <ResumeItem year={"2015 - 2017"} title={"High School"} subTitle={"Google Inc."} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quisquam."} />
 
                 </div>
                 <div className="small-title utility-small-title">
-                    <SmallTitle title={"Working Experience"} icon={school} />
+                    <SmallTitle title={"Educational Qualification"} icon={school} />
                 </div>
                 <div className="resume-contents">
                     <ResumeItem year={"2015 - 2020"} title={"Computer Science Teacher"} subTitle={"Sussex University"} text={"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quisquam."} />

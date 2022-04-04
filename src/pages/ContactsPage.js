@@ -38,7 +38,7 @@ const ContactsPage = () => {
                                 <label htmlFor="">Enter Your Message</label>
                                 <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
                             </div>
-                            <div className="form-field">
+                            <div className="form-field f-button">
                                 <PrimaryButton title={"Send Email"} />
                             </div>
                         </form>
@@ -70,11 +70,18 @@ const ContactsPageStyled = styled.div`
 display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-gap: 2rem; 
+@media screen and (max-width:978px) {
+    grid-template-columns: repeat(1,1fr);
+    .f-button{
+        margin-bottom: 2rem;
+    }
+}
 .right-content{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: 100px;
+    background-color: inherit;
 }
 .contact-title{
     h4{
@@ -117,6 +124,7 @@ grid-gap: 2rem;
             padding:0.8rem 1rem ;
         }
     }
+   
 }
  }
  `;

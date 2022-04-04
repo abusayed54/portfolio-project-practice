@@ -11,7 +11,7 @@ const AboutPage = () => {
         <MainLayout>
             <AboutStyled>
                 <Title title={'About Me'} span={'About Me'}></Title>
-                <ImageSection />
+                <ImageSection className={"res"} />
                 <ServicesSection />
                 <ReviewsSection />
             </AboutStyled>
@@ -23,6 +23,11 @@ const AboutPage = () => {
 };
 const AboutStyled = styled.section`
 
+@media screen and (max-width:991px) {
+    .res{
+        flex-direction: column;
+    }
+}
 `;
 
 export default AboutPage;

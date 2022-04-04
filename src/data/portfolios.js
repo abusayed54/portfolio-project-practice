@@ -29,6 +29,15 @@ const portfolios = [
         title: "How To Blender",
         text: "Free Animation Software"
     },
+    {
+        id: 4,
+        category: "Animation",
+        image: img2,
+        link1: "https://www.google.com",
+        link2: "https://www.google.com",
+        title: "How To Blender",
+        text: "Free Animation Software"
+    }
 ]
 
 export default portfolios;

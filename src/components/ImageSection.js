@@ -77,6 +77,21 @@ display: flex;
         }
     }
 }
+@media screen and (max-width:991px){
+    flex-direction: column;
+    .left-content{
+        margin-bottom: 2rem;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .right-content{
+        h4{
+            text-align: center;
+        }
+    }
+}
 `;
 
 export default ImageSection;

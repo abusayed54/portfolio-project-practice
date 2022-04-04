@@ -13,9 +13,9 @@ padding: 1rem 1rem;
 border-left: 6px solid var(--border-color);
 display: flex;
 align-items: center;
-background-color: var(--background-dark-color-2);
+background-color: var(--background-dark-color);
 position: relative;
-width:50;
+width:100%;
 &:not(:first-child){
     margin-left:2rem ;
 }
@@ -26,7 +26,7 @@ width:50;
     border-width: .8rem;
     top: 100%;
     border-style: solid;
-    border-color:var(--background-dark-color-2) transparent transparent var(--background-dark-color-2);
+    border-color:var(--background-dark-color) transparent transparent var(--background-dark-color);
 }
 p{
     padding: 1rem 0;
