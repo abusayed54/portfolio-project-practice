@@ -140,6 +140,7 @@ body::-webkit-scrollbar-track{
 .hamburger-menu{
         position: absolute;
         right: 5%;
+        display: none;
         top:3%;
         z-index: 15;
     svg{
@@ -151,9 +152,11 @@ body::-webkit-scrollbar-track{
         transform: translateX(0);
         z-index: 20;
     }
-/* @media screen and (max-width:1200px){
-   
-} */
+@media screen and (max-width:1200px){
+    .hamburger-menu{
+        display: block;
+    }
+}
 //Global Media Queries
 
 
